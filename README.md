@@ -3,7 +3,7 @@ crypto token coin automation
 
 Step1: change config/config.json for required user info \
 Step2: chmod +x run.sh \
-Step3: ./run.sh \
+Step3: ./run.sh 
 
 Following steps are to be automated soon: \
 Open directory ./coinScript to find created sol script for token  \
