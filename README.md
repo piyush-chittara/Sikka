@@ -5,6 +5,7 @@ Step1: change config/config.json for required user info \
 Step2: chmod +x run.sh \
 Step3: ./run.sh \
 
+Following steps are to be automated soon: \
 Open directory ./coinScript to find created sol script for token  \
 Step4: Go to https://remix.ethereum.org/ \
 Step5: Import created sol script and complie  \
