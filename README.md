@@ -1,5 +1,5 @@
 # Sikka 
-crypto token coin automation  
+crypto token creation automation  
 
 Step1: change config/config.json for required user info \
 Step2: chmod +x run.sh \
