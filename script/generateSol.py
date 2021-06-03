@@ -24,13 +24,15 @@ def createCoinScript():
 
 	with open(CONFIG_JSON) as json_file:
 		data= json.load(json_file)
-
-	render(coinTemplate, COIN_SCRIPT_DIR + "/" + data['name'] + "-coinScript.sol",
+	filename=data['name'] + "-coinScript.sol"
+	render(coinTemplate, COIN_SCRIPT_DIR + "/" + filename,
 	name = data['name'],
 	symbol = data['symbol'],
 	totalSupply = data['totalSupply'],
 	decimals= data['decimals']
 	)
+
+	print(filename+" :token script is created successfully in directory ./coinScript")
 
 if __name__ == "__main__" :
 	createCoinScript()

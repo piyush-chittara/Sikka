@@ -4,8 +4,8 @@ contract Token {
     mapping(address => uint) public balances;
     mapping(address => mapping(address => uint)) public allowance;
     uint public totalSupply = 1000000;
-    string public name = sikka;
-    string public symbol = SKA;
+    string public name = "sikka";
+    string public symbol = "SKA";
     uint public decimals = 6;
     
     event Transfer(address indexed from, address indexed to, uint value);

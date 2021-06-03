@@ -4,8 +4,8 @@ contract Token {
     mapping(address => uint) public balances;
     mapping(address => mapping(address => uint)) public allowance;
     uint public totalSupply = $totalSupply;
-    string public name = $name;
-    string public symbol = $symbol;
+    string public name = "$name";
+    string public symbol = "$symbol";
     uint public decimals = $decimals;
     
     event Transfer(address indexed from, address indexed to, uint value);
